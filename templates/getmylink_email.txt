@@ -1,0 +1,10 @@
+Hei
+
+Din medlemsside hos Bitraf kan nås ved følgende adresse:
+
+  <?=$link?>
+
+
+Vennlig hilsen
+
+Bitraf

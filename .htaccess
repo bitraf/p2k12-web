@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule ^api$ api.html
+RewriteRule ^transaction$ transaction.php [L,QSA]
+RewriteRule ^my/([0-9]+)/([0-9a-f]*)/$ my.php?id=$1&signature=$2 [L,QSA]
+RewriteRule ^my/$ join.php [L,QSA]
+
+RewriteRule ^getmylink$ getmylink.php [L,QSA]
+RewriteRule ^group$ group.php [L,QSA]
+RewriteRule ^join$ join.php [L,QSA]
+RewriteRule ^mystripe$ mystripe.php [L,QSA]
+RewriteRule ^passwd$ passwd.php [L,QSA]
+RewriteRule ^setup-home$ setup-home.php [L,QSA]
+RewriteRule ^stripestats$ stripestats.php [L,QSA]
+RewriteRule ^users$ users.php [L,QSA]

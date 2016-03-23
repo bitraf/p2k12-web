@@ -1,0 +1,4 @@
+.*.sw?
+/db-connect-string.php*
+/testmail.php
+/templates_c
