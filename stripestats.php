@@ -55,9 +55,11 @@ Oversikt medlemskap:
 <? endforeach ?>
 </ul>
 
-<p>Totalt har vi <?=$sum_members?> betalende medlemmer og <?=$sum_amount?> kr i inntekter / mnd.  Se også <a href='/charts/stripe-stats.png'>graf.</a></p>
-
+<p>Totalt har vi <?=$sum_members?> betalende medlemmer og <?=$sum_amount?> kr i inntekter / mnd.</p>
 <p>Av dette går <?=$fees?> kr til Stripe i gebyr.</p>
+
+<hr/>
+<img src='https://p2k12.bitraf.no/charts/stripe-stats.png'>
 </body>
 </html>
 
