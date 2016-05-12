@@ -3,6 +3,7 @@ require_once('smarty3/Smarty.class.php');
 
 require_once('lib/respond.php');
 require_once('lib/p2k12.php');
+require_once('lib/slack.php');
 require_once('lib/stripe-php/lib/Stripe.php');
 
 setlocale (LC_ALL, 'nb_NO.UTF-8');
@@ -127,6 +128,9 @@ if (isset($_POST['user-name']))
 	{
             if ($price > 0)
               send_new_member_alert($_POST['full-name'], $_POST['email'], $_POST['price'], $user_name);
+
+            // Invite to slack
+            request_slack_invite($_POST['email']);
 
             if ($use_stripe) {
               respond_303("https://{$_SERVER['HTTP_HOST']}/mystripe.php?id={$account}&signature=" . hash_for_account($account));
