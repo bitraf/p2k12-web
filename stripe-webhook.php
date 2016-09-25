@@ -134,6 +134,7 @@ function generate_meetup_html()
     $html_events .= "<p><a href='{$event->event_url}'>{$event->name}</a>";
     $html_events .= $event_description;
 
+    $html_events .= "</td></th></tr>\n";
   }
 
   return $html_events;
