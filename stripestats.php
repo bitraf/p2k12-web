@@ -17,6 +17,7 @@ $sum_members = 0;
 $sum_amount = 0;
 $fees = 0;
 $last_object = NULL;
+$cancelled = 0;
 
 $subscription_sum = array();
 
@@ -27,6 +28,11 @@ do {
   {
     foreach($customer->subscriptions->data as $subscription)
     {
+      if ($subscription->cancel_at_period_end)
+      {
+        ++$cancelled;
+        continue;
+      }
       $amount = $subscription->plan->amount / 100;
       if (!isset($subscription_sum[$amount]))
         $subscription_sum[$amount] = 0;
@@ -53,6 +59,7 @@ Oversikt medlemskap:
 <? foreach ($subscription_sum as $amount => $sum): ?>
 <li> <?=$sum?> medlemmer som betaler <?=$amount?> kr (totalt <?=($sum*$amount)?> kr)
 <? endforeach ?>
+<li> <?=$cancelled?> medlemmer har avsluttet medlemskapet siste betalingsmåned.
 </ul>
 
 <p>Totalt har vi <?=$sum_members?> betalende medlemmer og <?=$sum_amount?> kr i inntekter / mnd.</p>
