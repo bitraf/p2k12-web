@@ -17,11 +17,11 @@ th { background: #eee; }
 
 <p>Vi har belastet kredittkortet ditt med {$amount} kr for medlemskap i perioden {$start_date} til {$end_date}.</p>
 
-<p>Medlemsavgiften blir brukt til å betale husleie og kjøpe inn nytt utstyr til medlemmene.</p>
+<p>Medlemsavgiften blir brukt til å betale husleie, vedlikeholde maskiner og kjøpe inn nytt utstyr til medlemmene.</p>
 
 <p>Hvis du vil endre medlemskapet ditt kan du gjøre det <a href='https://p2k12.bitraf.no/mystripe.php?id={$accountId}&signature={$hash}'>her</a>.</p>
 
-<p>Som betalende medlem kan du få tilgang til å låse opp hoveddøra ved Bitraf ved hjelp av mobiltelefonen din. For å gjøre dette må du sette et passord ved å møte opp i lokalet. Du kan også sette igjen en prosjektboks i lokalet, bruke basiskomponenter og maskiner som fres og laser (kun for medlemmer). Mer informasjon om oss finner du på <a href='http://bitraf.no'>bitraf.no</a>.
+<p>Vi anbefaler alle å lese gjennom <a href='https://bitraf.no/wiki/Hvordan_Bitraf_fungerer'>denne siden</a> for å lære om hvordan Bitraf fungerer. Som betalende medlem kan du blant annet få tilgang til å låse opp hoveddøra til Bitraf ved hjelp av mobiltelefonen din. Les mer om dør-passord og medlemsfordeler på linken over.</p>
 
 <h2>Kommende arrangementer</h2>
 
