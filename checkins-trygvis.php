@@ -1,4 +1,4 @@
-<?
+<?php
 header('Content-Type: application/vnd.collection+json');
 require_once('db-connect-string.php');
 pg_connect($db_connect_string);
@@ -33,7 +33,7 @@ if (isset($_GET["to"])) {
     "version" : "1.0",
     "links" : [],
     "items" : [
-<?
+<?php
 $query = "SELECT TO_CHAR(date, 'YYYY-MM-DD') as date, COUNT(DISTINCT(account)) as count FROM checkins WHERE";
 if($from) {
   $query .= " date >= '$from' AND";
@@ -63,7 +63,7 @@ while ($row = pg_fetch_assoc($res))
           {"name" : "checkins", "value" : "<?=$row['count']?>"}
         ]
       }
-<?
+<?php
 }
 ?>
     ]
