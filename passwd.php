@@ -14,7 +14,7 @@ function check_ip($addr, $networks) {
     } else {
       if ($is_ipv6) continue;
 
-      list ($net_addr, $net_mask) = split ("/", $network);
+      list ($net_addr, $net_mask) = explode ("/", $network);
 
       $net_addr = ip2long($net_addr);
       $net_mask = ip2long($net_mask);
