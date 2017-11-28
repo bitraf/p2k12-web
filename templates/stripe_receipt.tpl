@@ -23,6 +23,22 @@ th { background: #eee; }
 
 <p>Vi anbefaler alle å lese gjennom <a href='https://bitraf.no/wiki/Hvordan_Bitraf_fungerer'>denne siden</a> for å lære om hvordan Bitraf fungerer. Som betalende medlem kan du blant annet få tilgang til å låse opp hoveddøra til Bitraf ved hjelp av mobiltelefonen din. Les mer om dør-passord og medlemsfordeler på linken over.</p>
 
+<h2>Nye regler for bruk av CNC</h2>
+<p>Som mange sikkert har lagt merke til er shopboten kontinuerlig overbooket for tiden, men når vi har målt faktisk bruk ser vi at tiden ikke blir utnyttet særlig bra. Alle er tjent med at fresen faktisk utnyttes effektivt slik at så mange medlemmer som mulig kan få bruke de.</p>
+
+<p> Derfor prøver vi oss på noen nye retningslinjer for å øke effektiviteten på bruken av maskinen. Dette er et forsøk, og det kan godt hende vi må revidere retningslinjene i ukene og månedene fremover. Men fra den 4. desember innfører vi altså følgende:</p>
+
+<ul>
+<li> Shopboten kan forhåndsbookes gratis i maksimum 12 timer i løpet av en 4 ukers periode.
+<li> For alle bookinger som varer mer enn 4 timer, må grunnen til den lange fresetiden forklares i beskrivelsen i kalenderen.
+<li> Bookinger om natten mellom 01.00 og 07.00 regnes ikke med i telling av timer.
+<li> Bookinger gjort mindre enn 72 timer i forkant regnes ikke med i telling av timer. Disse bookingene merkes med "KORTTID" i kalenderen.
+<li> Kommersielle og betalte bookinger regnes ikke med i telling av timer. Disse bookingene merkes med "BETALT" i kalenderen.
+</ul>
+
+<p>
+Med disse grunnreglene håper vi å gjøre det litt lettere for alle å få gjennomført de sinnsykt kule prosjektene sine på Bitraf.<p/>
+
 <h2>Kommende arrangementer</h2>
 
 <table class='grid-table'>
