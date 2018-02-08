@@ -10,6 +10,16 @@ $res = pg_query('SELECT * FROM all_balances WHERE balance != 0 OR stock != 0');
 <style>
   body { font-family: sans-serif; }
 </style>
+<!-- Global site tag (gtag.js) - Google Analytics, MH's account -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-29715437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-29715437-1');
+</script>
+
 <?
 while ($row = pg_fetch_assoc($res))
 {
