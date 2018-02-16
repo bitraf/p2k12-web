@@ -210,6 +210,8 @@ header('Content-Type: text/html; charset=UTF-8');
   <body>
     <div id='globalWrapper'>
     <h1><img src="/small-logo.png" alt='' style='margin-right: 20px'>Bli medlem i Bitraf</h1>
+	Ved å være medlem hos Bitraf får du en rekke medlemsfordeler, som du kan lese om  <a href="https://bitraf.no/wiki/Medlemsfordeler">HER</a>.<br>
+	Som medlem sikrer du også at Bitraf kan vedlikeholde sine tilbud om kurs, verktøyer, materialer og lokaler.
     <h2>Innmelding</h2>
     <? if ($errors): ?>
       <h2>Errors</h2>
@@ -260,11 +262,18 @@ header('Content-Type: text/html; charset=UTF-8');
     </form>
 
   <h2>Medlemskap</h2>
-  <p>Vi setter veldig stor pris på alle bidrag. Bitraf er en frivillig organisasjon som styres, brukes og finansieres av sine medlemmer.<p>
-
-  <p>I hovedsak har vi to type medlemskap. Vanlig medlemskap er for deg som er innom lokalet en gang i blant. Støttemedlemskap er for deg som liker arbeidet vårt og som kan avse en slant for at vi skal fortsette å tilby det vi gjør.</p>
-
-  <p>Du kan når som helst avslutte medlemskapet ditt og det påløper ingen ekstra kostnader fra oss. Bitraf lagrer ikke betalingsdetaljene dine. Dette blir håndtert av Stripe.com.</p>
+<p>I hovedsak har vi 2 typer medlemskap. <br>
+  Vanlig medlemskap er for deg som er innom lokalet en gang i blant. <br>
+  Støttemedlemskap er for deg som liker arbeidet vårt og som kan avse en slant 
+  for at vi skal kunne fortsette vårt tilbud.<br>
+  Om du har litt ekstra og setter stor pris på Bitraf, så kan Filantrop-medlemsskap være noe for deg.<br>
+  Det er ingen forskjeller i medlemsfordeler.<br>
+</p>
+  <p>Du kan når som helst avslutte medlemskapet ditt, raskt og enkelt. <br>
+  Det påløper ingen andre kostnader enn de oppførte medlemsprisene. <br>
+  Vi garanterer at Bitraf ikke lagrer noen betalingsdetaljer. Dette blir trygt håndtert av Stripe.com.</p>
+  
+	  <p>Vi setter stor pris på alle bidrag! </p>
 <!--
     <h2>Membership Dues</h2>
 
