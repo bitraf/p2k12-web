@@ -1,5 +1,13 @@
 <html>
 <head>
+<!-- Google Tag Manager, BL's account -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WP3CM2M');</script>
+<!-- End Google Tag Manager -->
+
 <style>
 .grid-table { border-collapse: collapse; margin: 15px auto; }
 .grid-table th,
@@ -11,8 +19,14 @@ th { background: #eee; }
 .calendar td,
 .calendar th { text-align: center; vertical-align: middle; font-weight: bold; }
 </style>
+
 </head>
+
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP3CM2M"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <h2>Tusen takk for at du er medlem av Bitraf, {$name}</h2>
 
 <p>Vi har belastet kredittkortet ditt med {$amount} kr for medlemskap i perioden {$start_date} til {$end_date}.</p>
